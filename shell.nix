@@ -9,8 +9,9 @@ let
   };
 in
 pkgs.mkShell {
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     unstable.terraform
+    unstable.awscli2
   ];
 
   shellHook = ''
