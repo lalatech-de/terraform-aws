@@ -1,2 +1,7 @@
 tmp
 .env
+
+# Terraform
+plan
+.terraform
+.terraform.lock.hcl
